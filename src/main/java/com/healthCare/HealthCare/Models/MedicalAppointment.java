@@ -17,6 +17,6 @@ import java.util.Date;
 public class MedicalAppointment {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    long appointmentId;
+    Integer appointmentId;
     Date date;
 }

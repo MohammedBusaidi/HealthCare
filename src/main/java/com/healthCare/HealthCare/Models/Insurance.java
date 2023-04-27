@@ -15,6 +15,6 @@ import lombok.Setter;
 public class Insurance {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    long insuranceId;
+    Integer insuranceId;
     String type;
 }

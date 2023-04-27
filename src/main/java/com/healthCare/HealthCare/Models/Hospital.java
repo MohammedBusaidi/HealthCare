@@ -15,7 +15,7 @@ import lombok.Setter;
 public class Hospital {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    long hospitalId;
+    Integer hospitalId;
     String name;
     String location;
 }

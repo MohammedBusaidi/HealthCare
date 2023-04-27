@@ -15,6 +15,6 @@ import lombok.Setter;
 public class Doctor {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    long doctorId;
+    Integer doctorId;
     String name;
 }

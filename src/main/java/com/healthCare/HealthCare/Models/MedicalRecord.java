@@ -15,5 +15,5 @@ import lombok.Setter;
 public class MedicalRecord {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    long recordId;
+    Integer recordId;
 }

@@ -15,6 +15,6 @@ import lombok.Setter;
 public class TestResult {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    long resultId;
+    Integer resultId;
     String type;
 }
